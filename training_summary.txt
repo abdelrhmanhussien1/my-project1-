@@ -1,0 +1,34 @@
+
+================================================================================
+ADULT INCOME PREDICTION - TRAINING SUMMARY
+================================================================================
+
+Training Date: 2025-11-12 18:47:09
+
+Dataset Information:
+  - Total Records: 32,537
+  - Total Features: 14
+  - Training Samples: 26,029
+  - Testing Samples: 6,508
+
+Best Performing Model: XGBoost
+  - Accuracy: 0.8695 (86.95%)
+
+All Model Results:
+              Model  Accuracy  Precision   Recall  F1-Score
+            XGBoost  0.869545   0.722877 0.743622  0.733103
+      Random Forest  0.846036   0.647089 0.794005  0.713058
+        Naive Bayes  0.826829   0.685139 0.520408  0.591519
+                KNN  0.789029   0.541972 0.802934  0.647134
+Logistic Regression  0.775661   0.523097 0.779974  0.626216
+                SVM  0.765673   0.508708 0.801020  0.622244
+
+Files Saved:
+  ✅ Models: saved_models/*.pkl
+  ✅ Scaler: scaler.pkl
+  ✅ Categorical Mappings: categorical_mappings.pkl
+  ✅ Model Results: saved_models/model_results.pkl
+  ✅ Processed Data: saved_models/processed_data.pkl
+  ✅ Visualizations: *.png
+
+================================================================================
